@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.auth0.cordova.example" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Auth0 Example</name>
+    <description>
+        Login sample application that responds to the deviceready event and authenticates using Auth0
+    </description>
+    <author email="support@auth0.com" href="http://auth0.com">
+        Auth0 Team
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <platform name="android">
+    </platform>
+    <platform name="ios">
+        <splash height="2436" src="res/screen/ios/Default@2x~universal~anyany.png" width="1125" />
+        <splash height="1125" src="res/screen/ios/Default@2x~universal~anyany.png" width="2436" />
+    </platform>
+    <access origin="*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <preference name="AndroidLaunchMode" value="singleTask" />
+    <plugin name="cordova-plugin-customurlscheme" spec="~4.2.0">
+        <variable name="URL_SCHEME" value="com.auth0.cordova.example" />
+        <variable name="ANDROID_SCHEME" value="com.auth0.cordova.example" />
+        <variable name="ANDROID_HOST" value="{DOMAIN}" />
+        <variable name="ANDROID_PATHPREFIX" value="/cordova/com.auth0.cordova.example/callback" />
+    </plugin>
+    <plugin name="cordova-plugin-safariviewcontroller" spec="~1.6.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.4" />
+    <engine name="android" spec="^8.0.0" />
+    <engine name="ios" spec="^5.0.1" />
+</widget>

@@ -1,0 +1,71 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "beardaway",
+      "name": "Conrad Sopala",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11062800?v=4",
+      "profile": "https://twitter.com/beardaway",
+      "contributions": [
+        "maintenance",
+        "review"
+      ]
+    },
+    {
+      "login": "alexisluque",
+      "name": "Alexis Luque",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30907012?v=4",
+      "profile": "https://github.com/alexisluque",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mikearias3",
+      "name": "Michael Arias",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5594487?v=4",
+      "profile": "https://qaboy.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mehreencs87",
+      "name": "Mehreen Khan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14890513?v=4",
+      "profile": "https://github.com/mehreencs87",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "scottsteinbeck",
+      "name": "Scott Steinbeck",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5215594?v=4",
+      "profile": "http://www.aresdev.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lbalmaceda",
+      "name": "Luciano Balmaceda",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3900123?v=4",
+      "profile": "https://github.com/lbalmaceda",
+      "contributions": [
+        "code",
+        "maintenance",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "auth0-cordova-samples",
+  "projectOwner": "auth0-community",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
